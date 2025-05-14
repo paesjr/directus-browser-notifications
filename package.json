@@ -1,0 +1,40 @@
+{
+  "name": "directus-extension-browser-notification",
+  "version": "1.0.0",
+  "keywords": [
+    "directus",
+    "directus-extension",
+    "directus-custom-interface",
+    "browser-notification"
+  ],
+  "directus:extension": {
+    "type": "interface",
+    "path": "dist/index.js",
+    "source": "src/index.ts",
+    "host": "^10.0.0"
+  },
+  "scripts": {
+    "build": "directus-extension build",
+    "dev": "directus-extension build -w --no-minify",
+    "link": "directus-extension link"
+  },
+  "devDependencies": {
+    "@directus/extensions-sdk": "10.0.0",
+    "typescript": "^5.0.0",
+    "vue": "^3.2.0"
+  },
+  "author": {
+    "name": "Ricardo Paes",
+    "email": "mottapaesjr@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paesjr/directus-browser-notifications.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/directus-extension-browser-notification/issues"
+  },
+  "homepage": "https://github.com/paesjr/directus-browser-notifications.git",
+  "description": "A Directus interface extension that enables browser notifications for platform notifications"
+}
